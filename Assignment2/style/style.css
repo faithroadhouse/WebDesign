@@ -1,0 +1,25 @@
+body {
+  background: #fdeae6;
+  margin: 0;
+  font-family: Arial;
+}
+
+#header {
+  background: #ffc1b8;
+  text-align: center;
+  padding: 30px;
+}
+
+#header h1 {
+  color: #8a1c6b;
+}
+
+#header p {
+  color: #8a1c6b;
+}
+
+.box {
+  background: #e8cfc7;
+  margin: 20px;
+  padding: 15px;
+}
