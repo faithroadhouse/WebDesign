@@ -1,5 +1,4 @@
 body {
-  background: #fdeae6;
   margin: 0;
   font-family: Arial;
   text-align: center;
@@ -9,24 +8,20 @@ body {
     text-align: center;
 }
 
-#header {
-  background: #ffc1b8;
+.header {
   text-align: center;
   padding: 30px;
 }
 
-#header h1 {
-  color: #8a1c6b;
+.header h1 {
   text-align: center;
 }
 
-#header p {
-  color: #8a1c6b;
+.header p {
   text-align: center;
 }
 
-.box {
-  background: #e8cfc7;
+.section {
   margin: 20px;
   padding: 15px;
 }
