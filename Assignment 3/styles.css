@@ -188,3 +188,63 @@ th {
 body {
   font-family: 'Poppins', sans-serif;
 }
+
+@media (max-width: 600px) {
+
+  body {
+    font-size: 14px;              
+    padding: 5px;
+  }
+
+  
+  .nav {
+    display: flex;
+    flex-direction: column;      
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .nav a {
+    font-size: 16px;
+    padding: 8px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  .favorites-table {
+    width: 95%;
+    font-size: 12px;
+  }
+
+  .favorites-table th,
+  .favorites-table td {
+    padding: 8px;
+  }
+
+  form {
+    width: 95%;
+    margin: 20px auto;
+  }
+
+  fieldset {
+    padding: 15px;
+  }
+
+  input,
+  select,
+  button {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .image-grid img {
+    width: 90%;   
+  }
+
+}
