@@ -66,14 +66,9 @@ label {
   font-weight: bold;
 }
 
-input[type="text"]
-input[type="email"]
-input[type="radio"]
-input[type="checkbox"]
-
 input[type="text"],
-    input[type="email"],
-    select {
+input[type="email"],
+select {
         width: 100%;
         margin: 0 auto;
         padding: 8px;
@@ -83,6 +78,11 @@ input[type="text"],
         border-radius: 5px;
         box-sizing: border-box;
     }
+
+input[type="radio"]
+input[type="checkbox"]  {
+  margin-right: 8px;
+}
 
     button {
   margin-top: 20px;
