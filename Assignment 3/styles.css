@@ -119,3 +119,40 @@ th {
   font-weight: bold;
   color: #5a3e36; 
 }
+
+.favorites-title {
+  color: #8a1c6b;
+  margin-top: 40px;
+}
+
+.favorites-table {
+  margin: 30px auto;
+  border-collapse: collapse;
+  width: 80%;
+  max-width: 700px;
+  background: #fff5f3;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.favorites-table th,
+.favorites-table td {
+  padding: 12px 15px;
+  text-align: center;
+}
+
+.favorites-table th {
+  background: #ffc1b8;
+  color: #8a1c6b;
+  font-weight: bold;
+}
+
+.favorites-table tr:nth-child(even) {
+  background: #fdeae6;
+}
+
+.favorites-table tr:hover {
+  background: #ffd6cf;
+  transition: 0.3s;
+}
