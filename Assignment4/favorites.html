@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Favorite Book Survey</title>
+  <title>Survey & Favorites</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -13,34 +13,44 @@
   <a href="about.html">About</a>
   <a href="info.html">Info</a>
   <a href="favorites.html">Survey</a>
+  <a href="flexbox.html">Flexbox</a>
+  <a href="grid.html">Grid</a>
+  <a href="blog-post.html">Blog</a>
 </nav>
 
 <h2 class="grid-title">Photo Grid</h2>
 
 <div class="image-grid">
-  <img src="media/coffee-cup.jpg" alt="image 1">
-  <img src="media/diner.jpg" alt="image 2">
-  <img src="media/foundry-woods.jpg" alt="image 3">
-  <img src="media/coffee-grounds.jpg" alt="image 4">
-  <img src="media/highway.jpg" alt="image 5">
-  <img src="media/mountain.jpg" alt="image 6">
-  <img src="media/palm-trees.jpg" alt="image 7">
-  <img src="media/los-angeles.jpg" alt="image 8">
-  <img src="media/hollywood.jpg" alt="image 9">
+  <img src="media/coffee-cup.jpg" alt="coffee cup">
+  <img src="media/diner.jpg" alt="diner">
+  <img src="media/foundry-woods.jpg" alt="woods">
+  <img src="media/coffee-grounds.jpg" alt="coffee grounds">
+  <img src="media/highway.jpg" alt="highway">
+  <img src="media/mountain.jpg" alt="mountain">
+  <img src="media/palm-trees.jpg" alt="palm trees">
+  <img src="media/los-angeles.jpg" alt="Los Angeles">
+  <img src="media/hollywood.jpg" alt="Hollywood">
 </div>
 
 <h2>My Favorite Movies</h2>
 
-<table>
+<table class="favorites-table">
+  <thead>
     <tr>
-      <th>LaLaLand</th>
-      <th>Damien Chazelle</th>
-      <th>Romance</th>
+      <th>Movie</th>
+      <th>Director</th>
+      <th>Genre</th>
     </tr>
+  </thead>
   <tbody>
     <tr>
-      <td>Twin Peaks: Fire Walk with Me</td>
-      <td>David Lynch and Mark Frost</td>
+      <td>La La Land</td>
+      <td>Damien Chazelle</td>
+      <td>Romance</td>
+    </tr>
+    <tr>
+      <td>Twin Peaks: Fire Walk With Me</td>
+      <td>David Lynch</td>
       <td>Psychological Thriller</td>
     </tr>
   </tbody>
@@ -50,17 +60,17 @@
   <fieldset>
     <legend>Favorite Book Survey</legend>
 
-    <label>Your Name:</label>
-    <input type="text" name="name" placeholder="e.g. First and Last">
+    <label for="name">Your Name:</label>
+    <input id="name" type="text" name="name" placeholder="e.g. First and Last">
 
-    <label>Email Address:</label>
-    <input type="email" name="email" placeholder="e.g. example123@gmail.com"> 
+    <label for="email">Email Address:</label>
+    <input id="email" type="email" name="email" placeholder="e.g. example123@gmail.com"> 
 
-    <label>Submit Your Favorite Book:</label>
-    <input type="text" name="favorite-book" placeholder="Type your favorite book here">
+    <label for="book">Submit Your Favorite Book:</label>
+    <input id="book" type="text" name="favorite-book" placeholder="Type your favorite book here">
 
-    <label>Favorite Genre:</label> 
-    <select name="genre">
+    <label for="genre">Favorite Genre:</label> 
+    <select id="genre" name="genre">
       <option value="classic">Classic</option>
       <option value="fantasy">Fantasy</option>
       <option value="sci-fi">Sci-Fi</option>
