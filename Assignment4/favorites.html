@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Favorite Book Survey</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<nav class="nav">
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="info.html">Info</a>
+  <a href="favorites.html">Survey</a>
+</nav>
+
+<h2 class="grid-title">Photo Grid</h2>
+
+<div class="image-grid">
+  <img src="media/coffee-cup.jpg" alt="image 1">
+  <img src="media/diner.jpg" alt="image 2">
+  <img src="media/foundry-woods.jpg" alt="image 3">
+  <img src="media/coffee-grounds.jpg" alt="image 4">
+  <img src="media/highway.jpg" alt="image 5">
+  <img src="media/mountain.jpg" alt="image 6">
+  <img src="media/palm-trees.jpg" alt="image 7">
+  <img src="media/los-angeles.jpg" alt="image 8">
+  <img src="media/hollywood.jpg" alt="image 9">
+</div>
+
+<h2>My Favorite Movies</h2>
+
+<table>
+    <tr>
+      <th>LaLaLand</th>
+      <th>Damien Chazelle</th>
+      <th>Romance</th>
+    </tr>
+  <tbody>
+    <tr>
+      <td>Twin Peaks: Fire Walk with Me</td>
+      <td>David Lynch and Mark Frost</td>
+      <td>Psychological Thriller</td>
+    </tr>
+  </tbody>
+</table>
+
+<form>
+  <fieldset>
+    <legend>Favorite Book Survey</legend>
+
+    <label>Your Name:</label>
+    <input type="text" name="name" placeholder="e.g. First and Last">
+
+    <label>Email Address:</label>
+    <input type="email" name="email" placeholder="e.g. example123@gmail.com"> 
+
+    <label>Submit Your Favorite Book:</label>
+    <input type="text" name="favorite-book" placeholder="Type your favorite book here">
+
+    <label>Favorite Genre:</label> 
+    <select name="genre">
+      <option value="classic">Classic</option>
+      <option value="fantasy">Fantasy</option>
+      <option value="sci-fi">Sci-Fi</option>
+      <option value="romance">Romance</option>
+    </select>
+
+    <p>Preferred Format:</p>
+    <label><input type="radio" name="format" value="print"> Print</label>
+    <label><input type="radio" name="format" value="ebook"> eBook</label>
+    <label><input type="radio" name="format" value="audiobook"> Audiobook</label>
+
+    <label>
+      <input type="checkbox" name="subscribe" value="yes">
+      Subscribe to our monthly book club newsletter
+    </label>
+
+    <button type="submit">Submit</button>
+  </fieldset>
+</form>
+
+</body>
+</html>
