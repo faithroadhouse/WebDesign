@@ -1,10 +1,10 @@
 ## Flexbox Froggy
 
-![Flexbox Game Completed](images/Flexbox Froggy.png)
+![Flexbox Game Completed](images/Flexbox-Froggy.png)
 
 ## Grid Garden
 
-![Grid Game Completed](images/Grid Garden.png)
+![Grid Game Completed](images/Grid-Garden.png)
 
 ## Reflection
 
