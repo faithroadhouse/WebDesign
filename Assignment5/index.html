@@ -15,7 +15,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">My Site</a>
+    <a class="navbar-brand" href="index.html">My Site</a>
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
       <span class="navbar-toggler-icon"></span>
@@ -23,9 +23,18 @@
 
     <div class="collapse navbar-collapse" id="navMenu">
       <ul class="navbar-nav ms-auto">
-        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Gallery</a></li>
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="blog-post.html">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="grid.html">Grid</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="flexbox.html">Flexbox</a>
+        </li>
       </ul>
     </div>
   </div>
@@ -37,20 +46,20 @@
     <h2>Twin Peaks Blog</h2>
 
     <div class="blog-preview">
-      <img src="images/laurapalmer.png">
+      <img src="images/laurapalmer.png" alt="Laura Palmer">
       <div>
         <h3>Who Killed Laura Palmer?</h3>
-        <p>A look into the many differet versions of Laura that people thought they knew.</p>
-        <a href="#">Read More</a>
+        <p>A look into the many different versions of Laura that people thought they knew.</p>
+        <a href="blog-post.html">Read More</a>
       </div>
     </div>
 
     <div class="blog-preview">
-      <img src="images/dalecooper.png">
+      <img src="images/dalecooper.png" alt="Dale Cooper">
       <div>
         <h3>Diane....</h3>
-        <p>Who on earth is Diane? A deep dive into the Blue Rose, Gordon Cole and of course Diane </p>
-        <a href="#">Read More</a>
+        <p>Who on earth is Diane? A deep dive into the Blue Rose, Gordon Cole, and of course Diane.</p>
+        <a href="blog-post.html">Read More</a>
       </div>
     </div>
   </section>
@@ -61,10 +70,11 @@
     <h2>Film Analysis</h2>
 
     <div class="custom-card">
-      <img src="images/blacklodge.png">
+      <img src="images/blacklodge.png" alt="Black Lodge">
       <h3>Characters, analysis, vibes.</h3>
       <p>Can you tell I love Twin Peaks?</p>
-      <button>View More</button>
+
+      <a href="grid.html" class="btn btn-primary">View More</a>
     </div>
   </section>
 
@@ -88,4 +98,3 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
-</html>
