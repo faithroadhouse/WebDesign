@@ -201,3 +201,8 @@ h1, h2, h3, h4 {
   font-family: 'Cinzel', serif;
   letter-spacing: 1px;
 }
+
+.parallax-banner-content h1 {
+  color: #ff4d6d;
+  text-shadow: 0 0 15px rgba(0,0,0,0.8);
+}
