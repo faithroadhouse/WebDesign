@@ -192,3 +192,12 @@ canvas {
   margin: 20px auto;
   background: black; 
 }
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Cinzel', serif;
+  letter-spacing: 1px;
+}
