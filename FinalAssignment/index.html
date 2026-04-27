@@ -16,7 +16,7 @@
   <div class="container-fluid">
     <a class="navbar-brand" href="index.html">My Site</a>
 
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
@@ -45,7 +45,7 @@
     <h2>Twin Peaks Blog</h2>
 
     <div class="blog-preview">
-      <img src="images/laurapalmer.png" alt="Laura Palmer">
+      <img src="images/laurapalmer.png" alt="Portrait of Laura Palmer">
       <div>
         <h3>Who Killed Laura Palmer?</h3>
         <p>A look into the many different versions of Laura that people thought they knew.</p>
@@ -54,7 +54,7 @@
     </div>
 
     <div class="blog-preview">
-      <img src="images/dalecooper.png" alt="Dale Cooper">
+      <img src="images/dalecooper.png" alt="Agent Dale Cooper">
       <div>
         <h3>Diane....</h3>
         <p>Who on earth is Diane? A deep dive into the Blue Rose, Gordon Cole, and of course Diane.</p>
@@ -69,7 +69,7 @@
     <h2>Film Analysis</h2>
 
     <div class="custom-card">
-      <img src="images/blacklodge.png" alt="Black Lodge">
+      <img src="images/blacklodge.png" alt="The Black Lodge red curtain room">
       <h3>Characters, analysis, vibes.</h3>
       <p>Can you tell I love Twin Peaks?</p>
 
@@ -93,6 +93,14 @@
   <hr>
 
   <section>
+    <h2>Atmosphere</h2>
+
+    <img src="images/forest.jpg" alt="Foggy forest resembling Twin Peaks setting" style="width:100%; border-radius:10px;">
+  </section>
+
+  <hr>
+
+  <section>
     <h3>Join our list</h3>
     <button id="openPopup" class="btn btn-primary">Sign Up</button>
   </section>
@@ -100,8 +108,11 @@
   <div id="popup">
     <h4>Sign up to receive reminders and updates!</h4>
 
-    <input type="text" placeholder="First Name">
-    <input type="email" placeholder="Email Address">
+    <label for="firstName">First Name</label>
+    <input type="text" id="firstName" name="firstName">
+
+    <label for="email">Email Address</label>
+    <input type="email" id="email" name="email">
 
     <button id="sendForm" class="btn btn-success">Send</button>
     <button id="closePopup" class="btn btn-danger">Close</button>
