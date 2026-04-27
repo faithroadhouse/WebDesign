@@ -39,85 +39,99 @@
   </div>
 </nav>
 
-<main class="container py-5">
+<main>
 
-  <section>
-    <h2>Twin Peaks Blog</h2>
-
-    <div class="blog-preview">
-      <img src="images/laurapalmer.png" alt="Portrait of Laura Palmer">
-      <div>
-        <h3>Who Killed Laura Palmer?</h3>
-        <p>A look into the many different versions of Laura that people thought they knew.</p>
-        <a href="blog-post.html">Read More</a>
-      </div>
-    </div>
-
-    <div class="blog-preview">
-      <img src="images/dalecooper.png" alt="Agent Dale Cooper">
-      <div>
-        <h3>Diane....</h3>
-        <p>Who on earth is Diane? A deep dive into the Blue Rose, Gordon Cole, and of course Diane.</p>
-        <a href="blog-post.html">Read More</a>
+  <!-- ✅ PARALLAX BANNER -->
+  <section class="parallax-banner" 
+           style="background-image: url('images/blacklodge.png');">
+    <div class="parallax-banner-overlay">
+      <div class="parallax-banner-content">
+        <h1>Welcome to Twin Peaks</h1>
       </div>
     </div>
   </section>
 
-  <hr>
+  <!-- ✅ REST OF CONTENT -->
+  <div class="container py-5">
 
-  <section>
-    <h2>Film Analysis</h2>
+    <section>
+      <h2>Twin Peaks Blog</h2>
 
-    <div class="custom-card">
-      <img src="images/blacklodge.png" alt="The Black Lodge red curtain room">
-      <h3>Characters, analysis, vibes.</h3>
-      <p>Can you tell I love Twin Peaks?</p>
+      <div class="blog-preview">
+        <img src="images/laurapalmer.png" alt="Portrait of Laura Palmer">
+        <div>
+          <h3>Who Killed Laura Palmer?</h3>
+          <p>A look into the many different versions of Laura that people thought they knew.</p>
+          <a href="blog-post.html">Read More</a>
+        </div>
+      </div>
 
-      <a href="grid.html" class="btn btn-primary">View More</a>
+      <div class="blog-preview">
+        <img src="images/dalecooper.png" alt="Agent Dale Cooper">
+        <div>
+          <h3>Diane....</h3>
+          <p>Who on earth is Diane? A deep dive into the Blue Rose, Gordon Cole, and of course Diane.</p>
+          <a href="blog-post.html">Read More</a>
+        </div>
+      </div>
+    </section>
+
+    <hr>
+
+    <section>
+      <h2>Film Analysis</h2>
+
+      <div class="custom-card">
+        <img src="images/blacklodge.png" alt="The Black Lodge red curtain room">
+        <h3>Characters, analysis, vibes.</h3>
+        <p>Can you tell I love Twin Peaks?</p>
+
+        <a href="grid.html" class="btn btn-primary">View More</a>
+      </div>
+    </section>
+
+    <hr>
+
+    <section>
+      <h2>Main Characters</h2>
+
+      <div class="grid-section">
+        <div class="grid-item">Dale Cooper</div>
+        <div class="grid-item">Laura Palmer</div>
+        <div class="grid-item">Donna Hayward</div>
+        <div class="grid-item">BOB</div>
+      </div>
+    </section>
+
+    <hr>
+
+    <section>
+      <h2>Atmosphere</h2>
+
+      <img src="images/forest.jpg" alt="Foggy forest resembling Twin Peaks setting" style="width:100%; border-radius:10px;">
+    </section>
+
+    <hr>
+
+    <section>
+      <h3>Join our list</h3>
+      <button id="openPopup" class="btn btn-primary">Sign Up</button>
+    </section>
+
+    <div id="popup">
+      <h4>Sign up to receive reminders and updates!</h4>
+
+      <label for="firstName">First Name</label>
+      <input type="text" id="firstName" name="firstName">
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email">
+
+      <button id="sendForm" class="btn btn-success">Send</button>
+      <button id="closePopup" class="btn btn-danger">Close</button>
     </div>
-  </section>
 
-  <hr>
-
-  <section>
-    <h2>Main Characters</h2>
-
-    <div class="grid-section">
-      <div class="grid-item">Dale Cooper</div>
-      <div class="grid-item">Laura Palmer</div>
-      <div class="grid-item">Donna Hayward</div>
-      <div class="grid-item">BOB</div>
-    </div>
-  </section>
-
-  <hr>
-
-  <section>
-    <h2>Atmosphere</h2>
-
-    <img src="images/forest.jpg" alt="Foggy forest resembling Twin Peaks setting" style="width:100%; border-radius:10px;">
-  </section>
-
-  <hr>
-
-  <section>
-    <h3>Join our list</h3>
-    <button id="openPopup" class="btn btn-primary">Sign Up</button>
-  </section>
-
-  <div id="popup">
-    <h4>Sign up to receive reminders and updates!</h4>
-
-    <label for="firstName">First Name</label>
-    <input type="text" id="firstName" name="firstName">
-
-    <label for="email">Email Address</label>
-    <input type="email" id="email" name="email">
-
-    <button id="sendForm" class="btn btn-success">Send</button>
-    <button id="closePopup" class="btn btn-danger">Close</button>
   </div>
-
 </main>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
