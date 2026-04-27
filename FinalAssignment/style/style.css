@@ -186,3 +186,9 @@ h2 {
 #openPopup {
   animation: pulse 3s ease-in-out infinite;
 }
+
+canvas {
+  display: block;
+  margin: 20px auto;
+  background: black; 
+}
